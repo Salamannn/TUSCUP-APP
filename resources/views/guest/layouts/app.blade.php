@@ -22,7 +22,7 @@
                 <a class="nav-link fs-5 text-dark" href="#">Profil Tim</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link fs-1 text-dark " style="font-family: Anton SC" href="#">TUS CUP</a>
+                <a class="nav-link fs-1 text-dark " style="font-family: Anton SC" href="#"><suradib style="color: #AA0000"> TUS </suradib> CUP </a>
             </li>
             <li class="nav-item mt-3">
                 <a class="nav-link fs-5 text-dark  " href="#">Klasemen</a>
