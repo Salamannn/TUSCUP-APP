@@ -27,9 +27,15 @@ Route::get('/bracket', function () {
 Route::get('/bagan-futsal',function(){
     return view('guest.bracket.futsal');
 });
+
+
 //grup
 Route::get('/grup', function(){
-    return view('guest.grup');
+    return view('guest.grup.index');
+});
+
+Route::get('/grup-futsal', function(){
+    return view('guest.grup.futsal');
 });
 
 Route::get('/jadwal', function(){

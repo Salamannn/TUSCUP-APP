@@ -3,7 +3,7 @@
 @section('title', 'Bracket')
 
 @section('content')
-    <div class="container">
+    <div class="container mb-5">
         <div class="mt-5" style="width: 100%; color: #AA0000; font-size: 5vw; font-family: Anton SC; font-weight: 400;">
             BAGAN
         </div>
