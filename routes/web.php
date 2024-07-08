@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BaganController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,10 +18,16 @@ Route::get('/', function () {
     return view('guest.dashboard');
 });
 
+// bagan
 Route::get('/bracket', function () {
-    return view('guest.bracket');
+    return view('guest.bracket.index');
 });
 
+// Route::get('/bracket',[BaganController::class,'index'])->name('bracket');
+Route::get('/bagan-futsal',function(){
+    return view('guest.bracket.futsal');
+});
+//grup
 Route::get('/grup', function(){
     return view('guest.grup');
 });
