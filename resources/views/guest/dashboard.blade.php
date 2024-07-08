@@ -105,7 +105,7 @@
                 <div class="mt-3">
                     <div class="row justify-content-center ">
                         <div class="col-auto">
-                            <a href="#" style="text-decoration: none">
+                            <a href="#"  style="text-decoration: none">
                                 <div class="card " style="width: 18rem; border-radius: 1%; background-color: #252525; font-family: Anton SC;">
                                     <div class="card-body">
                                         <h5 class="card-title"><img src="{{ asset('images/sign.png') }}" class="img-fluid w-50  p-3"
