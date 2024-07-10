@@ -28,6 +28,9 @@ Route::get('/bagan-futsal',function(){
     return view('guest.bracket.futsal');
 });
 
+Route::get('/bagan-badminton',function(){
+    return view('guest.bracket.badminton');
+});
 
 //grup
 Route::get('/grup', function(){

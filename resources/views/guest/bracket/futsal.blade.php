@@ -28,52 +28,52 @@
         </ul>
     </div>
     <div class="table-responsive mt-5">
-        <table class="table table-bordered">
+        <table class="table table-borderless">
             <tbody>
                 <tr>
-                    <th scope="row" style="width: 200px">GRUP A 1</th>
-                    <td style="width: 50px">-</td>
-                    <td style="width: 50px">0</td>
-                    <td style="width: 50px">0</td>
-                    <td style="width: 50px">0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    
+                    <th scope="row" style="width: 200px;border: #000000;border-width: 2px;border-style: solid">GRUP A 1</th>
+                    <td style="width: 50px;border: #000000;border-width: 2px;border-style: solid">-</td>
+                    <td style="width: 50px;border-bottom: #000000;border-bottom-width: 2px;border-bottom-style: solid"></td>
+                    <td style="width: 50px"></td>
+                    <td style="width: 200px"></td>
+                    <td style="width: 50px"></td>
                 </tr>
                 <tr>
-                    <th scope="row">GRUP B 2</th>
-                    <td>-</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <th style="border: #000000;border-width: 2px;border-style: solid" scope="row">GRUP B 2</th>
+                    <td style="border: #000000;border-width: 2px;border-style: solid">-</td>
+                    <td style="border-right: #000000;border-right-width: 2px;border-right-style: solid"></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th scope="row">FRI</th>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td style="border-right: #000000;border-right-width: 2px;border-right-style: solid"></td>
+                    <td style="border-bottom: #000000;border-bottom-width: 2px;border-bottom-style: solid"></td>
+                    <td style="border: #000000;border-width: 2px;border-style: solid">Menang Atas</td>
+                    <td style="border: #000000;border-width: 2px;border-style: solid">-</td>
                 </tr>
                 <tr>
-                    <th scope="row">FRI</th>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td style="border-left: #000000;border-left-width: 2px;border-left-style: solid"></td>
+                    <td style="border: #000000;border-width: 2px;border-style: solid">Menang Bawah</td>
+                    <td style="border: #000000;border-width: 2px;border-style: solid">-</td>
                 </tr>
                 <tr>
-                    <th scope="row">GRUP B 1</th>
-                    <td>-</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <th style="border: #000000;border-width: 2px;border-style: solid" scope="row">GRUP B 1</th>
+                    <td style="border: #000000;border-width: 2px;border-style: solid">-</td>
+                    <td style="border-bottom: #000000;border-bottom-width: 2px;border-bottom-style: solid"</td>
+                    <td style="border-left: #000000;border-left-width: 2px;border-left-style: solid"></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th scope="row">GRUP A 2</th>
-                    <td>-</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <th style="border: #000000;border-width: 2px;border-style: solid" scope="row">GRUP A 2</th>
+                    <td style="border: #000000;border-width: 2px;border-style: solid">-</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>
