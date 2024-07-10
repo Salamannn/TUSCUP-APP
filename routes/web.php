@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\BaganController;
+use App\Http\Controllers\BadmintonController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,6 +37,8 @@ Route::get('/grup', function(){
 Route::get('/grup-futsal', function(){
     return view('guest.grup.futsal');
 });
+
+Route::get('/grup-badminton',[BadmintonController::class, 'index']);
 
 Route::get('/jadwal', function(){
     return view('guest.jadwal');
